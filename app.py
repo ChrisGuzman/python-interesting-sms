@@ -9,8 +9,8 @@ from unidecode import unidecode
 import urllib
 import emoji
 
-nexmo_apikey = 'xxx'
-nexmo_secret = 'xxx'
+nexmo_apikey = os.environ.get("nexmo_apikey")
+nexmo_secret = os.environ.get("nexmo_secret")
 
 longtext = "Bacon ipsum dolor amet tail bresaola pork loin kielbasa sirloin pancetta. Pork chop bacon beef ribs, picanha t-bone ground round kevin drumstick prosciutto corned beef. Prosciutto tongue capicola, t-bone biltong turducken tail pastrami ham doner. Bacon beef ribs ham hock chuck kielbasa tongue boudin tenderloin shoulder pastrami short loin leberkas kevin drumstick. Meatloaf pig pork loin tri-tip ball tip. Turducken venison leberkas kielbasa boudin ball tip, sausage tenderloin beef ribs short loin frankfurter. Corned beef pork picanha bresaola sausage."
 
